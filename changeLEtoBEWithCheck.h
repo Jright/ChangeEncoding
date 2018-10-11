@@ -1,0 +1,9 @@
+//
+// Created by jright on 2018/10/12.
+//
+
+#ifndef CHANGEENCODING_CHANGEBETOLEWITHCHECK_H
+#define CHANGEENCODING_CHANGEBETOLEWITHCHECK_H
+
+#endif //CHANGEENCODING_CHANGEBETOLEWITHCHECK_H
+int changeLEtoBEWithCheck(const char *start, int n);
