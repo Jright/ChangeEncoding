@@ -20,3 +20,10 @@ int changeLEtoBE(const char *start, int n){
     printf("\n");
     return 0;
 }
+
+//int main(){
+//    char c[4] = "okay";
+//    changeLEtoBE(c, sizeof(c));
+//
+//    return 0;
+//}

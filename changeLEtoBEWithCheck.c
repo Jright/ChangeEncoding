@@ -20,3 +20,13 @@ int changeLEtoBEWithCheck(const char *start, int n){
     printf("\n");
     return count % 2;
 }
+
+
+int main(){
+//    char c[4] = "okay";
+//    changeLEtoBE(c, sizeof(c));
+
+    char d[5] = "field";
+    changeLEtoBEWithCheck(d, sizeof(d));
+    return 0;
+}
